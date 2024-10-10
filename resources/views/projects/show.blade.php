@@ -1,3 +1,3 @@
 <x-layouts.app>
-    <livewire:projects.show :p="request()->route('project')" />
+    <livewire:projects.show :project="$project" />
 </x-layouts.app>
