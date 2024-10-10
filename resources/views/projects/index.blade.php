@@ -1,7 +1,4 @@
 <x-layouts.app>
-    <a href="{{ route('projects.show', 1) }}">
-        Primeiro projeto
-    </a>
-
+    <h1>Lista de projetos</h1>
     <livewire:projects.index />
 </x-layouts.app>
