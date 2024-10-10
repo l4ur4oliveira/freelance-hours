@@ -43,14 +43,10 @@ Table proposals {
 
 ## Important commands
 
-1. To drop all tables and recreate migrations
+1. To create a new model: `php artisan make:model`
 
-`php artisan migrate:fresh`
+2. To drop all tables and recreate migrations: `php artisan migrate:fresh`
 
-2. To seed database
+3. To seed database: `php artisan db:seed`
 
-`php artisan db:seed`
-
-3. To do 1 and 2 steps at the same time
-
-`php artisan migrate:fresh --seed`
+4. To do steps 2 and 3 at the same time: `php artisan migrate:fresh --seed`
