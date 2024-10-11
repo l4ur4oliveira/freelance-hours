@@ -43,6 +43,8 @@ Table proposals {
 
 ## Important commands
 
+### Models
+
 1. To create a new model: `php artisan make:model`
 
 2. To drop all tables and recreate migrations: `php artisan migrate:fresh`
@@ -50,3 +52,13 @@ Table proposals {
 3. To seed database: `php artisan db:seed`
 
 4. To do steps 2 and 3 at the same time: `php artisan migrate:fresh --seed`
+
+### Web server and views
+
+1. To start server: `php artisan serve` and `npm run dev`
+
+2. To create a layout using Livewire: `php artisan livewire:layout`
+
+3. To create a Livewire component: `php artisan livewire:make`
+
+4. To create a view: `php artisan make:view`
