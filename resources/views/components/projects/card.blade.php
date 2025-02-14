@@ -13,9 +13,11 @@
             </div>
         </div>
         <div>
-            <livewire:proposals.create :$project />
+            @if($project->status->value == 'open')
+                <livewire:proposals.create :$project />
 
-            <livewire:projects.timer :$project />
+                <livewire:projects.timer :$project />
+            @endif
         </div>
     </div>
 
