@@ -21,7 +21,7 @@ class DatabaseSeeder extends Seeder
             ->each(function (User $user) {
                 $project = Project::factory()->create(['created_by' => $user->id]);
 
-                Proposal::factory()->count(random_int(1,45))->create(['project_id' => $project->id]);
+                Proposal::factory()->count(random_int(1,15))->create(['project_id' => $project->id]);
             });
     }
 }
